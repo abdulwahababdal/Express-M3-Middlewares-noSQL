@@ -17,5 +17,6 @@ const PostSchema = new Schema({
     type: String,
     required: true,
   },
+  image: { type: String },
 });
 module.exports = model("Post", PostSchema);
